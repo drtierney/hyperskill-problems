@@ -1,0 +1,33 @@
+<b>Mutable geometric shapes</b> <a class="right" href="https://hyperskill.org/learn/step/3083">Open on JetBrains Academy</a><br/><br/><html>
+ <head></head>
+ <body>
+  <p>Suppose, you are writing a geometric engine. Now it includes classes&nbsp;<code>Circle</code>, <code>Rectangle</code>&nbsp;and interfaces&nbsp;<code>Movable</code> and <code>Scalable</code>.</p> 
+  <p><img alt="" height="21" src="https://ucarecdn.com/30b1850a-4aed-4a63-a026-7ea80a12a6de/" style="float: left;" width="124"></p> 
+  <p>&nbsp;</p> 
+  <p><strong>You need:</strong></p> 
+  <ol> 
+   <li>to write a new interface <code>MutableShape</code> that extends both existing interfaces;</li> 
+   <li>to implement the new interface by each class;</li> 
+   <li>to override methods <code>move</code> and <code>scale</code> in both classes: 
+    <ul> 
+     <li><code>scale</code> should multiply the <code>radius</code> of a circle by the specified <code>factor</code>;</li> 
+     <li><code>scale</code> should multiply <code>width</code>&nbsp;and <code>height</code> of a rectangle by the specified <code>factor</code>;</li> 
+     <li><code>move</code> should add <code>dx</code> and <code>dy</code> to the center of a circle;</li> 
+     <li><code>move</code> should add <code>dx</code> and <code>dy</code> to the upper-left corner of a rectangle.</li> 
+    </ul> </li> 
+  </ol> 
+  <p>See the provided code and read comments to understand your task better. Now the code is not compiled.</p> 
+  <p><strong>Note:</strong></p> 
+  <ul> 
+   <li>do not remove existing classes and their members (including getters and constructors).</li> 
+   <li>do not make your classes and interfaces <code>public</code></li> 
+  </ul> 
+  <p>After your changes, the following code should be compiled:</p> 
+  <pre><code class="language-java">MutableShape circle = new Circle(2.0f, 3.5f, 10.1f);
+
+circle.move(10.1f, 20.2f);
+circle.scale(2.2f);
+
+((Circle) circle).getRadius();</code></pre>
+ </body>
+</html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 8 seconds</font><br><br><br/><a href="https://hyperskill.org/learn/step/3615">Show topic summary</a>

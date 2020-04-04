@@ -1,0 +1,22 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class Cat {
+
+        // write static and instance variables
+
+        public Cat(String name, int age) {
+            // implement the constructor
+            // do not forget to check the number of cats
+        }
+
+        public static int getNumberOfCats() {
+            // implement the static method
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2280
+status: Solved
+record: -1

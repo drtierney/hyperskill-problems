@@ -1,0 +1,16 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.io.InputStream;
+
+    class Main {
+        public static void main(String[] args) throws Exception {
+            InputStream inputStream = System.in;
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9097
+status: Solved
+record: -1
